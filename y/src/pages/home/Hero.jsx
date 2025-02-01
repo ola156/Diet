@@ -3,7 +3,7 @@ import Button from "../../components/Button";
 
 const Hero = () => {
   return (
-    <div className="">
+    <div className="overflow">
       <div className="mt-12  max-w-[85%] mx-auto">
         <div className="flex justify-around pt-10 pr-10 hero-flex ">
           <div className="text-div">
@@ -24,7 +24,7 @@ const Hero = () => {
               way.
             </p>
 
-            <div className="w-full mt-5 flex justify-between items-center">
+            <div className="w-full mt-5 flex justify-between items-center ">
               <Button title="Start Your Journey" ButtonClass={"px-5"} />
               <div className="flex items-center px-3">
                 <div>
@@ -35,24 +35,24 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <div className=" relative img-div">
+            <div className=" relative w-full ">
               <img
                 src="/Vector.png"
                 alt=""
                 className="absolute z-50 w-28 -top-14 -left-8 vector"
               />
-              <div className="absolute z-30">
+              <div className="w-full">
                 <img
                   src="/Display Image 1.png"
                   alt="hero"
-                  className="max-w-[330px] img-frame"
+                  className="max-w-[330px] img-frame absolute z-30"
                 />
               </div>
               <div className=" relative top-12 left-20">
                 <img
                   src="/Display image 2.png"
                   alt="hero"
-                  className="max-w-[330px] img-frame"
+                  className="max-w-[330px] img-frame "
                 />
               </div>
               <img

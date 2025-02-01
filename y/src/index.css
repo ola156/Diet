@@ -28,6 +28,7 @@ a:hover {
 }
 
 body {
+  overflow: hidden;
   margin: 0;
 }
 
@@ -56,10 +57,11 @@ h1 {
     width: 220px;
   }
   .hero-h2 {
-    font-size: 25px;
+    font-size: 30px;
+    margin-top: 17px;
   }
   .hero-p {
-    font-size: 12px;
+    font-size: 11px;
   }
   .vector {
     width: 70px;
@@ -68,6 +70,27 @@ h1 {
   .vector2 {
     width: 70px;
     bottom: -90px;
+    right: 30px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .nav-items {
+    display: none;
+  }
+
+  .hero-flex {
+    flex-direction: column-reverse;
+    gap: 57px;
+
+    padding: 0px 15px;
+  }
+
+  .text-div {
+    text-align: center;
+  }
+
+  .img-div {
+    padding: 0px 15px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -77,13 +100,19 @@ h1 {
   .hamburger {
     display: block;
   }
-  .hero-flex {
-    flex-direction: column-reverse;
-    gap: 57px;
-    align-items: center;
+  .overflow {
+    overflow: hidden;
   }
-}
-@media screen and (max-width: 650px) {
+  .img-frame {
+    width: 200px;
+  }
+  .hero-h2 {
+    font-size: 20px;
+    margin-top: 17px;
+  }
+  .hero-p {
+    font-size: 10px;
+  }
 }
 
 @media (prefers-color-scheme: light) {
