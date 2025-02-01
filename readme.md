@@ -1,0 +1,9 @@
+primary color = 3CA455 green
+navitems color = 2C2C2C
+secondary color = FF6200 orange
+yellow = FFE100
+text color = 353F44 black
+dark green = 1A3129
+light green = CBEA7B
+pink gradient = FFE4FD
+green gradient =
