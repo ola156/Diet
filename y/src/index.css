@@ -28,7 +28,6 @@ a:hover {
 }
 
 body {
-  overflow: hidden;
   margin: 0;
 }
 
@@ -100,12 +99,13 @@ h1 {
   .hamburger {
     display: block;
   }
-  .overflow {
-    overflow: hidden;
+
+  .img-frame,
+  .vector,
+  .vector2 {
+    display: none;
   }
-  .img-frame {
-    width: 200px;
-  }
+
   .hero-h2 {
     font-size: 20px;
     margin-top: 17px;

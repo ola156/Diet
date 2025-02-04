@@ -3,7 +3,7 @@ import Button from "../../components/Button";
 
 const Hero = () => {
   return (
-    <div className="overflow">
+    <div className="">
       <div className=" mt-12 max-w-[85%] mx-auto">
         <div className="flex justify-around pt-10 pr-10 hero-flex ">
           <div className="text-div">
