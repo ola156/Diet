@@ -10,23 +10,27 @@ const Navbar = () => {
     <header className="bg-white shadow flex justify-center ">
       <nav className="flex justify-between items-center max-w-[85%] w-full  py-3">
         <div className="flex items-center">
-          <img src="/Logo color 1.png" alt="logo" className="w-8 mr-1" />
+          <Link to="/">
+            {" "}
+            <img src="/Logo color 1.png" alt="logo" className="w-8 mr-1" />{" "}
+          </Link>
           <div>
             <p className="text-[10px] font-bold">DOCTOR</p>
           </div>
         </div>
+
         <div>
           <ul className="flex  sm:gap-7 lg:gap-10 text-[12px] text-black-75 nav-items ">
-            <Link to="">
+            <Link to="/bookonline">
               <li>Book Online</li>
             </Link>
-            <Link to="">
+            <Link to="/program">
               <li>Programs</li>
             </Link>
-            <Link to="">
+            <Link to="/shop">
               <li>Shop</li>
             </Link>
-            <Link to="">
+            <Link to="/faqs">
               <li>FAQs</li>
             </Link>
           </ul>
@@ -63,16 +67,16 @@ const Navbar = () => {
           <nav className="flex justify-between items-center ">
             <div>
               <ul className="flex flex-col  text-[15px] text-black-75 uppercase dropdown gap-5 ">
-                <Link to="">
+                <Link to="/bookonline">
                   <li>Book Online</li>
                 </Link>
-                <Link to="">
+                <Link to="/program">
                   <li>Programs</li>
                 </Link>
-                <Link to="">
+                <Link to="/shop">
                   <li>Shop</li>
                 </Link>
-                <Link to="">
+                <Link to="/faqs">
                   <li>FAQs</li>
                 </Link>
                 <div>

@@ -4,7 +4,7 @@ import Button from "../../components/Button";
 const Hero = () => {
   return (
     <div className="overflow">
-      <div className="mt-12  max-w-[85%] mx-auto">
+      <div className=" mt-12 max-w-[85%] mx-auto">
         <div className="flex justify-around pt-10 pr-10 hero-flex ">
           <div className="text-div">
             <h2 className="capitalize font-extrabold text-3xl mb-5 hero-h2">
