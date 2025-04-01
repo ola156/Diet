@@ -22,11 +22,19 @@ a {
 
 .btn {
   background: white;
-  color: #212121;
-  padding: 10px 22px;
+  color: #0f0f0f;
+  padding: 8px 22px;
   font-size: 16px;
   border-radius: 25px;
   cursor: pointer;
   border: none;
   outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn img {
+  width: 20px;
+  margin-left: 10px;
 }
