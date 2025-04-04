@@ -4,6 +4,7 @@ import msg_icon from "../../assets/msg-icon.png";
 import mail_icon from "../../assets/mail-icon.png";
 import phone_icon from "../../assets/phone-icon.png";
 import location_icon from "../../assets/location-icon.png";
+import white_arrow from "../../assets/white-arrow.png";
 const Contacts = () => {
   return (
     <div className="contact">
@@ -56,8 +57,10 @@ const Contacts = () => {
           />
           <button type="submit" className="btn dark-btn">
             Submit now
+            <img src={white_arrow} alt="" />
           </button>
         </form>
+        <span></span>
       </div>
     </div>
   );
