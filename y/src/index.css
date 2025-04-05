@@ -23,7 +23,7 @@ a {
 .btn {
   background: white;
   color: #0f0f0f;
-  padding: 8px 22px;
+  padding: 12px 22px;
   font-size: 16px;
   border-radius: 25px;
   cursor: pointer;
@@ -41,4 +41,15 @@ a {
 .btn.dark-btn {
   background: #212ea0;
   color: #fff;
+}
+/* ------- media query --------*/
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn {
+    padding: 10px 20px;
+  }
 }
